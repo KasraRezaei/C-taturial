@@ -22,16 +22,16 @@ void analaseTrack (AudioTrack* track){ // we must dclearee if the pointer is emp
 }
 
 
-int main()
-{
-    // user chooses a song
-    // old method of creataing a dynamic object > dosen't excist at the start of program
-    //    AudioTrack* track = new AudioTrack;
-    /// decleration      //allocation
-
-    // new mwthod
-    std::unique_ptr<AudioTrack> track = std::make_unique<AudioTrack>();
-    /// decleration                                               allocation
-    analaseTrack(track.get());
-    
-}
+//int main()
+//{
+//    // user chooses a song
+//    // old method of creataing a dynamic object > dosen't excist at the start of program
+//    //    AudioTrack* track = new AudioTrack;
+//    /// decleration      //allocation
+//
+//    // new mwthod
+//    std::unique_ptr<AudioTrack> track = std::make_unique<AudioTrack>();
+//    /// decleration                                               allocation
+//    analaseTrack(track.get());
+//    
+//}

@@ -1,6 +1,6 @@
 //
 //  referenceAndPointer.cpp
-//  C--taturial
+//  C++taturial
 //
 //  Created by Kasra Rezaei on 21/07/2025.
 //

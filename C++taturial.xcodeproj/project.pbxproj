@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CD77B66E2E2A62A7007D2108 /* C++taturial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++taturial"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD09C14F2E2E8A5A00D66BFB /* C++taturial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "C++taturial"; path = "/Users/farza/Programing/C--taturial/build/Debug/C++taturial"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				CD77B6702E2A62A7007D2108 /* C++taturial */,
-				CD77B66F2E2A62A7007D2108 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		CD77B66F2E2A62A7007D2108 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD77B66E2E2A62A7007D2108 /* C++taturial */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,7 +70,7 @@
 			packageProductDependencies = (
 			);
 			productName = "C--taturial";
-			productReference = CD77B66E2E2A62A7007D2108 /* C++taturial */;
+			productReference = CD09C14F2E2E8A5A00D66BFB /* C++taturial */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -93,6 +84,7 @@
 				TargetAttributes = {
 					CD77B66D2E2A62A7007D2108 = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
 					};
 				};
 			};
@@ -106,7 +98,7 @@
 			mainGroup = CD77B6652E2A62A7007D2108;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CD77B66F2E2A62A7007D2108 /* Products */;
+			productRefGroup = CD77B6652E2A62A7007D2108;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -244,16 +236,21 @@
 		CD77B6762E2A62A7007D2108 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		CD77B6772E2A62A7007D2108 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
