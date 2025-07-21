@@ -22,9 +22,22 @@
 		CD09C14F2E2E8A5A00D66BFB /* C++taturial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "C++taturial"; path = "/Users/farza/Programing/C--taturial/build/Debug/C++taturial"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CD09C1552E2E9C1500D66BFB /* Exceptions for "C++taturial" folder in "C++taturial" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				switch.cpp,
+			);
+			target = CD77B66D2E2A62A7007D2108 /* C++taturial */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CD77B6702E2A62A7007D2108 /* C++taturial */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CD09C1552E2E9C1500D66BFB /* Exceptions for "C++taturial" folder in "C++taturial" target */,
+			);
 			path = "C++taturial";
 			sourceTree = "<group>";
 		};
