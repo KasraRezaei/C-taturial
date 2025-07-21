@@ -19,13 +19,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CD77B66E2E2A62A7007D2108 /* C--taturial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C--taturial"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD77B66E2E2A62A7007D2108 /* C++taturial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++taturial"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CD77B6702E2A62A7007D2108 /* C--taturial */ = {
+		CD77B6702E2A62A7007D2108 /* C++taturial */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "C--taturial";
+			path = "C++taturial";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -44,7 +44,7 @@
 		CD77B6652E2A62A7007D2108 = {
 			isa = PBXGroup;
 			children = (
-				CD77B6702E2A62A7007D2108 /* C--taturial */,
+				CD77B6702E2A62A7007D2108 /* C++taturial */,
 				CD77B66F2E2A62A7007D2108 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,7 +52,7 @@
 		CD77B66F2E2A62A7007D2108 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD77B66E2E2A62A7007D2108 /* C--taturial */,
+				CD77B66E2E2A62A7007D2108 /* C++taturial */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +60,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD77B66D2E2A62A7007D2108 /* C--taturial */ = {
+		CD77B66D2E2A62A7007D2108 /* C++taturial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD77B6752E2A62A7007D2108 /* Build configuration list for PBXNativeTarget "C--taturial" */;
+			buildConfigurationList = CD77B6752E2A62A7007D2108 /* Build configuration list for PBXNativeTarget "C++taturial" */;
 			buildPhases = (
 				CD77B66A2E2A62A7007D2108 /* Sources */,
 				CD77B66B2E2A62A7007D2108 /* Frameworks */,
@@ -73,13 +73,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CD77B6702E2A62A7007D2108 /* C--taturial */,
+				CD77B6702E2A62A7007D2108 /* C++taturial */,
 			);
-			name = "C--taturial";
+			name = "C++taturial";
 			packageProductDependencies = (
 			);
 			productName = "C--taturial";
-			productReference = CD77B66E2E2A62A7007D2108 /* C--taturial */;
+			productReference = CD77B66E2E2A62A7007D2108 /* C++taturial */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD77B6692E2A62A7007D2108 /* Build configuration list for PBXProject "C--taturial" */;
+			buildConfigurationList = CD77B6692E2A62A7007D2108 /* Build configuration list for PBXProject "C++taturial" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD77B66D2E2A62A7007D2108 /* C--taturial */,
+				CD77B66D2E2A62A7007D2108 /* C++taturial */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD77B6692E2A62A7007D2108 /* Build configuration list for PBXProject "C--taturial" */ = {
+		CD77B6692E2A62A7007D2108 /* Build configuration list for PBXProject "C++taturial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD77B6732E2A62A7007D2108 /* Debug */,
@@ -269,7 +269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD77B6752E2A62A7007D2108 /* Build configuration list for PBXNativeTarget "C--taturial" */ = {
+		CD77B6752E2A62A7007D2108 /* Build configuration list for PBXNativeTarget "C++taturial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD77B6762E2A62A7007D2108 /* Debug */,
