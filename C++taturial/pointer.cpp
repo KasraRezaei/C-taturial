@@ -5,21 +5,21 @@
 //  Created by Kasra Rezaei on 21/07/2025.
 //
 
-#include <iostream>
-
-class AudioTrack
-{
-    // representing audio track
-};
-
-//pointing
-void analaseTrack (AudioTrack* track){ // we must dclearee if the pointer is empty
-    
-    if (track != nullptr)
-    {
-        //figure out the level
-    }
-}
+//#include <iostream>
+//
+//class AudioTrack
+//{
+//    // representing audio track
+//};
+//
+////pointing
+//void analaseTrack (AudioTrack* track){ // we must dclearee if the pointer is empty
+//    
+//    if (track != nullptr)
+//    {
+//        //figure out the level
+//    }
+//}
 
 
 //int main()
