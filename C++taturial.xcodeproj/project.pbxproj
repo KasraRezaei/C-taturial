@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CD019C412E31047C00589191 /* C++taturial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "C++taturial"; path = "/Users/farza/Programing/C--taturial/build/Debug/C++taturial"; sourceTree = "<absolute>"; };
+		CD15D61C2E3794540066820F /* C++taturial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++taturial"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -58,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				CD77B6702E2A62A7007D2108 /* C++taturial */,
+				CD15D61C2E3794540066820F /* C++taturial */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,7 +84,7 @@
 			packageProductDependencies = (
 			);
 			productName = "C--taturial";
-			productReference = CD019C412E31047C00589191 /* C++taturial */;
+			productReference = CD15D61C2E3794540066820F /* C++taturial */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
