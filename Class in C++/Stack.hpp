@@ -2,6 +2,7 @@
 #define STACK_HPP
 
 #define SIZE 100
+// #define index 0
 
 // define the Stack class
 class Stack
@@ -11,10 +12,11 @@ class Stack
     int index;
 
 public:
-    Stack() : index(0) {} // constructor
+    // Stack() : index(0) {} // constructor
     // function prototypes for the Stack class
     void push(int);
     int pop(void);
 };
+Stack ::Stack() : index(0) {} // constructor
 
 #endif
