@@ -6,12 +6,13 @@
 */
 
 /* structure definitions */
+#include <stdio.h>
 
-struct stactStruct{
+struct stactStruct
+{
     char data;
     struct stactStruct *next;
-}
-typedef struct stactStruct STACK;
+} typedef struct stactStruct STACK;
 
 /* functions prototypes */
 extern STACK *puch(STACK *, char);
