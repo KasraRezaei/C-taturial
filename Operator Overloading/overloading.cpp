@@ -19,3 +19,10 @@ MyInteger MyInteger::operator+(MyInteger m)
     // this objec's(current) i + m objects i
     return this->i + m.i;
 }
+
+int MyInteger::operator-(MyInteger m)
+{
+    // returning the difference of the two integers
+    // this objec's(current) i - m objects i
+    return this->i - m.i;
+}

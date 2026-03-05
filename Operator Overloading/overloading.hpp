@@ -8,7 +8,8 @@ public:
     MyInteger(int x);
     int Value();
     // operator overloding definition as a memeber of the class
-    // type , + , parameter list(MyInteger)
+    // type(MyInteger) , + , parameter list(MyInteger)
     MyInteger operator+(MyInteger);
+    int operator-(MyInteger);
 };
 #endif
