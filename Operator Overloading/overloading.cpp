@@ -1,0 +1,21 @@
+#include "overloading.hpp"
+// syntax for overloading an operator
+// return_type operator<symbol>(parameter_list\)
+
+MyInteger::MyInteger(int x)
+{
+    this->i = x;
+}
+
+int MyInteger::Value()
+{
+    return i;
+}
+
+MyInteger MyInteger::operator+(MyInteger m)
+{
+
+    // returning the sum of the two integers
+    // this objec's(current) i + m objects i
+    return this->i + m.i;
+}
