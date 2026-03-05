@@ -11,5 +11,8 @@ public:
     // type(MyInteger) , + , parameter list(MyInteger)
     MyInteger operator+(MyInteger);
     int operator-(MyInteger);
+    friend int doublicate(MyInteger);
 };
+
+int doublicate(MyInteger m);
 #endif

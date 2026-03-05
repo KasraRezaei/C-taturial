@@ -26,3 +26,9 @@ int MyInteger::operator-(MyInteger m)
     // this objec's(current) i - m objects i
     return this->i - m.i;
 }
+int doublicate(MyInteger m)
+{
+    // returning the double of the integer
+    // this objec's(current) i * 2
+    return m.i + m.i;
+}
