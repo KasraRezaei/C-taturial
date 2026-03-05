@@ -14,5 +14,9 @@ int main()
     cout << "The difference of sum and m1 is: " << difference << endl;
 
     cout << "The double of m1 is: " << doublicate(m1) << endl; // this will call the friend function doublicate
+
+    MyInteger m3;
+    m3 = 20 + m1; // this will call the friend function operator+ with int and MyInteger as parameters
+    cout << "M3 = The sum of 20 and m1 is: " << m3.Value() << endl;
     return 0;
 }
