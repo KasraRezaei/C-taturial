@@ -23,11 +23,11 @@ MyInteger MyInteger::operator+(MyInteger m)
     return this->i + m.i;
 }
 
-int MyInteger::operator-(MyInteger m)
+int MyInteger::operator-(int i)
 {
     // returning the difference of the two integers
     // this objec's(current) i - m objects i
-    return this->i - m.i;
+    return this->i - i;
 }
 int doublicate(MyInteger m)
 {

@@ -11,7 +11,7 @@ public:
     // operator overloding definition as a memeber of the class
     // type(MyInteger) , + , parameter list(MyInteger)
     MyInteger operator+(MyInteger);
-    int operator-(MyInteger);
+    int operator-(int);
     friend int doublicate(MyInteger);
     friend int operator+(int, MyInteger);
 };
